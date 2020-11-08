@@ -16,7 +16,7 @@ public class HelloGet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 
-		req.setCharacterEncoding("UTF-8");
+		req.setCharacterEncoding("UTF-8"); // UTF-8編碼
 		res.setContentType("text/plain; charset=Big5");
 //        res.setContentType("UTF-8");
 		PrintWriter out = res.getWriter();
